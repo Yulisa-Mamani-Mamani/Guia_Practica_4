@@ -76,6 +76,7 @@ public class Caso_8 {
 		if (edad > 59) mensaje2 = "Adulto mayor";
 		
 		return mensaje2;
+		
 	}
 
 }
