@@ -35,6 +35,7 @@ public class Caso_8 {
 			
 				System.out.print("¿Continuar registro [S|N]?: ");
 				rp = sc.nextLine();
+				System.out.print("\n");
 				
 				if (!rp.equals("S") && !rp.equals("s") && !rp.equals("N") && !rp.equals("n")) {
 					System.out.println("Solo escriba S o N");
@@ -43,11 +44,12 @@ public class Caso_8 {
 		}
 		
 		//Impresion
-		System.out.println("\n -- datos registrados -- ");
-		System.out.println("=========================");
+		System.out.println("\n========================================================");
+		System.out.println(" --         D A T O S    R E G I S T R A D O S         -- ");
+		System.out.println("========================================================");
 		
-		System.out.println("Alumno(a) \tEdad \t\tEstado \t\tEstado 2");
-		System.out.println("-------------------------------------------------------");
+		System.out.println("Alumno(a) \tEdad   \t\tEstado \t\tEstado 2");
+		System.out.println("--------------------------------------------------------");
 		
 		for (int i = 0; i < arrNombre.size(); i++) {
 			System.out.println(arrNombre.get(i) + "\t\t" + arrEdad.get(i) + " años\t\t" +
